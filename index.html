@@ -162,10 +162,33 @@
 </div>
 </div>
    </main>
-
-   
-
-   
-
 </body>
+
+<!--Adrian-->
+<section class="seccion-contacto container mx-auto p-6">
+  <h2 class="text-2xl font-semibold mb-4">Contáctanos</h2>
+  <form class="formulario-contacto" action="#" method="POST">
+    
+    <div class="campo-formulario mb-4">
+      <label for="nombre" class="block text-sm font-medium text-gray-700">Nombre</label>
+      <input type="text" id="nombre" name="nombre" required class="mt-1 p-2 w-full border rounded-md" />
+    </div>
+
+    <div class="campo-formulario mb-4">
+      <label for="correo" class="block text-sm font-medium text-gray-700">Correo electrónico</label>
+      <input type="email" id="correo" name="correo" required class="mt-1 p-2 w-full border rounded-md" />
+    </div>
+
+    <div class="campo-formulario mb-4">
+      <label for="mensaje" class="block text-sm font-medium text-gray-700">Mensaje</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required class="mt-1 p-2 w-full border rounded-md"></textarea>
+    </div>
+
+    <button type="submit" class="boton-enviar bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">
+      Enviar mensaje 1
+    </button>
+  </form>
+
+</section>
+
 </html>
