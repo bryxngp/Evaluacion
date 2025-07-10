@@ -1,0 +1,24 @@
+.titulo-agencia {
+  font-size: 3rem; /* Tamaño grande */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipografía moderna */
+  font-weight: 700; /* Negrita */
+  text-decoration: underline; /* Subrayado */
+  color: #ffffff; /* Color oscuro elegante */
+  margin-bottom: 1rem;
+  text-align: center; /* Centrado (opcional) */
+}
+
+.tarjeta-peq {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.centrar-Tarjetas {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  gap: 20px; /* Espacio entre tarjetas */
+  flex-wrap: wrap; /* Permite que se acomoden en otra línea si no hay espacio */
+}
+
+
+
