@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Java Bryan</title>
+  <meta charset="UTF-8">
+  <title>Cajero Automático</title>
+  <link rel="stylesheet" href="estilos.css">
 </head>
-<body>  
-    <h1>EJERCICIO 1</h1>
+<body>
+  <div class="contenedor">
+    <h1>Cajero Automático</h1>
+    <p id="mensaje">Bienvenido, Alejandro</p>
+    <div class="botones">
+      <button onclick="consultarSaldo()">Consultar saldo</button>
+      <button onclick="hacerDeposito()">Depositar</button>
+      <button onclick="hacerRetiro()">Retirar</button>
+    </div>
+    <p id="saldo"></p>
+  </div>
 
-    <script src="Evaluacion/js/adrian.js"></script>
-  
-
+  <script src="/Evaluacion/js/adrian.js"></script>
 </body>
 </html>
